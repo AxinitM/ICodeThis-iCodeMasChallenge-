@@ -3,13 +3,11 @@
 This is a solution to a challenge "iCodeMas #12" from the website [ICodeThis](https://icodethis.com/modes/design-to-code/614/submissions).
 
 ## Table of contents
-- [iCodeMas #12 / ICodeThis Challenge](#icodemas-12--icodethis-challenge)
-  - [Table of contents](#table-of-contents)
-  - [Task](#task)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Task](#task)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
 ## Task
 
@@ -19,7 +17,7 @@ Focus on creativity rather than pixel-perfect accuracy.
 
 ## Screenshot
 
-![](./images/screenshot.png)
+![](/images/screenshot.png)
 
 ## Links
 
