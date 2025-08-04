@@ -21,7 +21,7 @@ Focus on creativity rather than pixel-perfect accuracy.
 
 ## Links
 
-[iCodeMas #12 Page](https://your-solution-url.com)
+[iCodeMas #12 Page](https://axinitm.github.io/ICodeThis-iCodeMasChallenge-/)
 
 ## Built with
 
