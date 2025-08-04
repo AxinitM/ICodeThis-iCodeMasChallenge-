@@ -17,7 +17,7 @@ Focus on creativity rather than pixel-perfect accuracy.
 
 ## Screenshot
 
-![](/images/screenshot.jpg)
+![](/images/screenshot.jpeg)
 
 ## Links
 
