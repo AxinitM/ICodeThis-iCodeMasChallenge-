@@ -1,0 +1,165 @@
+:root {
+  /* General color  setting */
+  --bg-clr-body: #e6e6fa;
+  --bg-clr-shipping: #b3e6c9;
+  --bg-clr-guarantee: #fff1a8;
+  --bg-clr-money: #b8d7fb;
+
+  /* icon colors setting */
+  --icon-clr-shipping: #2e7d5b;
+  --icon-clr-guarantee: #b38b00;
+  --icon-clr-money: #285e9a;
+
+  /* Typography setting */
+  --font-family-base: "DM Sans", Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-title: 1.2rem;
+
+  /* Shadows setting */
+  --box-shadow-default: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/*  General page settings */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--font-family-base);
+  background-color: var(--bg-clr-body);
+  overflow-x: hidden;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 25px;
+}
+
+.feature-flex-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+      don't use because create new class for all main blocks (.general-blocks-sets)
+      #container > div {
+        border-radius: 10px;
+      }        
+       */
+
+.general-blocks-sets {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow-default);
+}
+
+/* icon setting */
+
+.icon-block {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  margin: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.icon-block i {
+  font-size: 1.4rem;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+#free-shipping .icon-block {
+  background: var(--icon-clr-shipping);
+  color: var(--bg-clr-shipping);
+}
+
+#money-back .icon-block {
+  background: var(--icon-clr-money);
+  color: var(--bg-clr-money);
+}
+#support .icon-block {
+  background: var(--icon-clr-guarantee);
+  color: var(--bg-clr-guarantee);
+}
+
+/* blocks setting */
+
+#free-shipping {
+  background-color: var(--bg-clr-shipping);
+}
+
+#money-back {
+  background-color: var(--bg-clr-money);
+}
+
+#support {
+  background-color: var(--bg-clr-guarantee);
+}
+/* text-on-block setting */
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.text-block h3 {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.text-block p {
+  font-size: 0.9rem;
+}
+
+/* @media settings */
+
+@media (max-width: 1024px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .general-blocks-sets {
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto;
+  }
+
+  .text-block {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text-block h3 {
+    font-size: 1rem;
+  }
+
+  .text-block p {
+    font-size: 0.8rem;
+  }
+
+  .icon-block {
+    margin: 0.5rem;
+  }
+}
